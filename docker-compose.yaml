@@ -1,13 +1,14 @@
+# https://ray.run/tools/docker-compose-to-docker-run
 version: "3.4"
 services:
-  app:
+  app: # docker run --name app-instance -v ./src/:/work/src/ -p 5000:5000 -p 9229:9229 app-image
     container_name: app-instance
-    image: app-image
-    build:
-      target: debug
     volumes:
     - ./src/:/work/src/
     ports:
       - 5000:5000 # webserver
       - 9229:9229 # debug
+    image: app-image
+    build:
+      target: debug
   
