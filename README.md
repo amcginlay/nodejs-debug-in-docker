@@ -12,7 +12,7 @@ Steps to demo debugging in docker-based NodeJS installation.
 - `curl localhost:5000` to test server is running
 - To attach the debugger to the running process:
   - Select the "Run And Debug" panel in VSCode
-  - Select "Docker: Attach to Node" from the dropdown
+  - Select "Docker: Attach to Node" from the dropdown (NOTE: this is defined in the `.vscode/launch.json` file)
   - Hit the green "Play" button to attach the debugger
   - Check the Debug Console window to confirm successful attachment
 - To debug the code:
