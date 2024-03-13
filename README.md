@@ -1,5 +1,10 @@
 # Debugging NodeJS via Docker
 
+Bookmarks:
+- [NodeJS Debugging in Docker](https://www.youtube.com/watch?v=ktvgr9VZ4dc)
+- [Docker Compose to Docker Run Converter](https://ray.run/tools/docker-compose-to-docker-run)
+
+
 These instructions assume following:
 - Docker Engine and associated tools (e.g. docker and docker-compose) are present.
 - VSCode is the development IDE in use.
